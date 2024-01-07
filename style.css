@@ -90,11 +90,12 @@ p {
 }
 
 #chapter-list {
-  text-wrap: nowrap;
+  white-space: nowrap;
   overflow: scroll;
   width: 100%;
   padding: 0.5em 1em;
   border-bottom: 1px solid;
+  text-wrap: nowrap;
 }
 
 .chapter-selector {
