@@ -15,7 +15,7 @@
         "sizes": "512x512",
         "type": "image/png"
     }],
-    "url": "/amharic-bible-classic",
-    "start_url": "/",
+    "url": "/amharic-bible-classic/",
+    "start_url": "/amharic-bible-classic/",
     "generated": "true"
 }
