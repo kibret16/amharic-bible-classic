@@ -1,0 +1,21 @@
+{
+    "dir": "ltr",
+    "lang": "en",
+    "name": "መጽሐፍ ቅዱስ",
+    "display": "standalone",
+    "short_name": "መጽሐፍ ቅዱስ",
+    "theme_color": "transparent",
+    "description": "",
+    "orientation": "any",
+    "background_color": "transparent",
+    "related_applications": [],
+    "prefer_related_applications": false,
+    "icons": [{
+        "src": "icon.png",
+        "sizes": "512x512",
+        "type": "image/png"
+    }],
+    "url": "/amharic-bible-classic",
+    "start_url": "/",
+    "generated": "true"
+}
