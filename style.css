@@ -44,7 +44,7 @@ header {
 }
 
 main {
-  margin-top: 3em;
+  margin-top: 6em;
 }
 
 hr {
@@ -56,11 +56,12 @@ p {
   margin-bottom: 0.5em;
 }
 
-#top-menu-button {
+.text-right {
   float: right;
   display: inline-block;
-  border: 1px solid green;
-  padding: 0.4em 1em;
+  padding: 0.4em 0.5em;
+  margin-left: 0.5em;
+  border: 1px solid rgb(255, 255, 255);
 }
 
 .hide {
@@ -73,20 +74,26 @@ p {
 
 .book-name {
   display: inline-block;
-  border: 1px solid green;
+  border: 1px solid black;
+  background: #222;
+  color: #ddd;
   font-size: small;
   text-align: center;
   padding: 0.25em;
   margin: 0px 2px 2px 0px;
 }
 
+b#book-40 {
+  grid-column: 1;
+}
+
 #books-list {
   grid-template-columns: repeat(7, 1fr);
-  grid-template-rows: repeat(10, 1fr);
-  margin: 1em;
   padding: 1em;
   position: absolute;
-  right: 0;
+  left: 0; right: 0;
+  width: 100%;
+  background: #444;
 }
 
 #chapter-list {
@@ -112,7 +119,9 @@ p {
   text-shadow: 0 0 3px #aaa;
   font-weight: 800;
   color: #111;
-  margin: 5em 0.2em 5em auto;
+  margin: 5em 0.5em 10em auto;
+  column-count: 2;
+  column-width: 250px;
 }
 
 .book-header {
@@ -133,12 +142,14 @@ td {
 .verse-number {
   text-align: right;
   font-size: 0.7em;
-  background: #eee;
-  padding-right: 5px;
-  width: 1em;
+  /* background: #eee; */
+  padding-top: 3px;
+  padding-right: 3px;
 }
 
 .verse-text {
-  word-wrap: break-word;
-  hyphens: auto;
+  /* text-align: justify; */
+  /* word-wrap: break-word;
+  word-break: break-all; */
+  font-size: 17px;
 }

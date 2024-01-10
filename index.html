@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="en-US">
+<html lang="am">
 
 <head>
 
@@ -18,24 +18,20 @@
 
 <body>
 
-
   <header id="top-header" >
     <div class="book-header">
-      <button id="top-menu-button" onclick="showHideMenu()">...</button>
+      <button class="text-right" onclick="speak('passage')">ንባብ</button>
+      <button class="text-right" id="top-menu-button" onclick="showHideMenu()">ማውጫ</button>
       <h2 id="book-title">Loading</h2>
     </div>
     <ul id="books-list" hidden></ul>
     <ul id="chapter-list"></ul>
   </header>
-
   <main id="main">
-
-    
-    <div class="passage">
+    <div id="passage" class="passage">
       <table id="read-book"></table>
-    </div>  
-
-
+      <hr class="ending-line">
+    </div>
   </main>
 
 <script src="script.js"></script>
